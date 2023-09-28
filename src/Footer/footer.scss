@@ -1,0 +1,33 @@
+@import "../utils/colors";
+
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    height: 500px;
+
+    background-color: darken($color-primary, 10);
+
+    img {
+        max-width: 20%;
+        max-height: 50%;
+    }
+
+    p {
+        color: $color-background;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #footer {
+        height: 400px;
+
+        img {
+            max-width: 60%;
+        }
+    }
+}

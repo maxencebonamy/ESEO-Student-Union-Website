@@ -1,0 +1,159 @@
+@import "utils/colors";
+
+html {
+    scroll-behavior: smooth;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+    img {
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+
+        pointer-events: none;
+    }
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-clip: padding-box;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(lighten($color-header, 20), 0.3);
+    width: 10px;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(lighten($color-header, 20), 0.6);
+    width: 10px;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    background-color: $color-background;
+    overflow: overlay;
+}
+
+@font-face {
+    font-family: KLIK;
+    src: url("utils/klik_light.otf") format("opentype");
+}
+
+h1 {
+    color: $color-header;
+    font-size: 70px;
+    font-family: KLIK, sans-serif;
+    margin: 0;
+    text-align: center;
+
+    &:after {
+        position: relative;
+        content: '';
+        width: 80%;
+        height: 4px;
+        bottom: -2px;
+        border-radius: 2px;
+        background-color: $color-primary;
+        margin: auto;
+        display: block;
+        transition: width 0.25s linear;
+    }
+}
+
+h2 {
+    color: $color-header;
+    font-size: 50px;
+    font-family: KLIK, sans-serif;
+    margin: 0;
+}
+
+h3 {
+    color: $color-primary;
+    font-size: 40px;
+    font-family: KLIK, sans-serif;
+    margin: 0;
+}
+
+h4 {
+    color: $color-text;
+    font-size: 30px;
+    font-family: KLIK, sans-serif;
+    margin: 0;
+}
+
+h5 {
+    color: $color-primary;
+    font-size: 30px;
+    font-family: KLIK, sans-serif;
+    margin: 0;
+}
+
+h6 {
+    color: $color-text;
+    font-size: 20px;
+    font-family: KLIK, sans-serif;
+    margin: 0;
+}
+
+p {
+    color: $color-text;
+    font-size: 20px;
+    font-family: KLIK, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    background-color: $color-background;
+
+    //border: solid 1px $color-primary;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Clubathon",
+        "description": "Les clubs à l'ESEO sont très nombreux et il est indispensable de présenter la Vie Associative de l'école à tous les nouveaux étudiants. C'est là qu'intervient le Clubathon ! Organisé par le module Clubs, ce grand forum se tient dans la Grand Rue du bâtiment B. Tous les clubs ont un stand à tenir afin d'animer, faire leur promotion, recruter de nouveaux membres et faire connaissance avec la promotion entrante.",
+        "img": "clubathon"
+    },
+
+    {
+        "title": "Gala",
+        "description": "Le gala ESEO est un autre événement marquant de l'année des étudiants. Elle est l'occasion pour les E5 de l'année précédente de recevoir leur diplôme et pour les autres promotions de partager un repas avec leurs professeurs. Organisé par le club Gala, de septembre à mars les étudiants s'affairent à trouver les partenaires de cet évènement, réserver la salle et organiser une soirée à thème réussie.",
+        "img": "gala"
+    },
+
+    {
+        "title": "Eseo Perspectives",
+        "description": "Les Alumnis et les relations entreprises sont très importantes pour une école. L'association ESEO Perspectives (anciennement Anjou Perspectives) organise chaque année un forum qui rassemble, le temps d'une journée, entreprises et étudiants sur un grand salon au sein de l'ESEO. Des entretiens individuels sont prévus avec les E5 afin de trouver un futur stage de fin d'études.",
+        "description": "Les Alumnis et les relations entreprises sont très importantes pour une école. L'association ESEO Perspectives (anciennement Anjou Perspectives) organise chaque année un forum qui rassemble, le temps d'une journée, entreprises et étudiants sur un grand salon au sein de l'ESEO. Des entretiens individuels sont prévus avec les E5 afin de trouver un futur stage de fin d'études.",
+        "img": "eseo_perspectives"
+    }
+]

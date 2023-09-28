@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Auchan",
+        "img": "auchan",
+        "link": "https://www.auchan.fr/"
+    },
+    {
+        "name": "Konect",
+        "img": "konect",
+        "link": "https://www.instagram.com/konect_group/"
+    },
+    {
+        "name": "En voiture Simone",
+        "img": "en_voiture_simone",
+        "link": "https://www.envoituresimone.com/"
+    },
+    {
+        "name": "Sopra Steria",
+        "img": "sopra_steria",
+        "link": "https://www.soprasteria.fr/"
+    },
+    {
+        "name": "Nightfall",
+        "img": "nightfall",
+        "link": "https://www.nightfallcards.fr/"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Julian Cirou",
+        "role": "Resp. Event",
+        "mail": "evenementiel@bdeeseo.fr",
+        "img": "julian_cirou"
+    },
+    {
+        "name": "Eugénie Rocheron",
+        "role": "Resp. RCIIA",
+        "mail": "rciia@bdeeseo.fr",
+        "img": "eugenie_rocheron"
+    },
+    {
+        "name": "Xavier Durumain",
+        "role": "Resp. Clubs",
+        "mail": "clubs@bdeeseo.fr",
+        "img": "xavier_durumain"
+    },
+    {
+        "name": "Maxence Bonamy",
+        "role": "Resp. Communication",
+        "mail": "communication@bdeeseo.fr",
+        "img": "maxence_bonamy"
+    },
+    {
+        "name": "Gabriel Escarieux",
+        "role": "Resp. Sponsors",
+        "mail": "sponsors@bdeeseo.fr",
+        "img": "gabriel_escarieux"
+    },
+    {
+        "name": "Léopold Pineau",
+        "role": "Resp. Logistique",
+        "mail": "logistique@bdeeseo.fr",
+        "img": "leopold_pineau"
+    },
+    {
+        "name": "Albane Carteron ",
+        "role": "Resp. Voyage",
+        "mail": "voyage@bdeeseo.fr",
+        "img": "albane_carteron"
+    },
+    {
+        "name": "Pierre Lambert",
+        "role": "Resp. Animation",
+        "mail": "animation@bdeeseo.fr",
+        "img": "pierre_lambert"
+    }
+]

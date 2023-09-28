@@ -1,0 +1,14 @@
+
+#home_logo {
+    position: fixed;
+    top: calc(0.15 * 100vh / 1.5);
+    height: calc(100vh / 1.5);
+    background: transparent;
+}
+
+@media screen and (max-width: 1000px) {
+    #home_logo {
+
+    }
+
+}

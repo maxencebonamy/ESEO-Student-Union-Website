@@ -1,0 +1,40 @@
+@import "../utils/colors";
+
+.vie_associative_event {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+
+    width: 55%;
+    margin-top: 50px;
+
+    img {
+        max-height: 220px;
+    }
+}
+
+.vie_associative_event_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .vie_associative_event {
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .vie_associative_event_content {
+
+    }
+}

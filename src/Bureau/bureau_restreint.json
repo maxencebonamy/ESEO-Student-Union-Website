@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Alexandre Joly",
+        "role": "Vice-président",
+        "mail": "president@bdeeseo.fr",
+        "img": "alexandre_joly"
+    },
+    {
+        "name": "Jules Leroy",
+        "role": "Président",
+        "mail": "president@bdeeseo.fr",
+        "img": "jules_leroy"
+    },
+    {
+        "name": "Emma Frassin",
+        "role": "Vice-présidente",
+        "mail": "president@bdeeseo.fr",
+        "img": "emma_frassin"
+    },
+    {
+        "name": "Ambre Santanach",
+        "role": "Trésorière",
+        "mail": "tresorerie@bdeeseo.fr",
+        "img": "ambre_santanach"
+    },
+    {
+        "name": "Paul Perrin",
+        "role": "Secrétaire",
+        "mail": "secretariat@bdeeseo.fr",
+        "img": "paul_perrin"
+    },
+    {
+        "name": "Aymeric Biard",
+        "role": "Trésorier",
+        "mail": "tresorerie@bdeeseo.fr",
+        "img": "aymeric_biard_olivry"
+    }
+]

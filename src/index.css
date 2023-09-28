@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none; /* Standard syntax */
+}
+html img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-clip: padding-box;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(80, 80, 80, 0.3);
+  width: 10px;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(80, 80, 80, 0.6);
+  width: 10px;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  background-color: #ECECEC;
+  overflow: overlay;
+}
+
+@font-face {
+  font-family: KLIK;
+  src: url("utils/klik_light.otf") format("opentype");
+}
+h1 {
+  color: #1D1D1D;
+  font-size: 70px;
+  font-family: KLIK, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+h1:after {
+  position: relative;
+  content: "";
+  width: 80%;
+  height: 4px;
+  bottom: -2px;
+  border-radius: 2px;
+  background-color: #c70c0e;
+  margin: auto;
+  display: block;
+  transition: width 0.25s linear;
+}
+
+h2 {
+  color: #1D1D1D;
+  font-size: 50px;
+  font-family: KLIK, sans-serif;
+  margin: 0;
+}
+
+h3 {
+  color: #c70c0e;
+  font-size: 40px;
+  font-family: KLIK, sans-serif;
+  margin: 0;
+}
+
+h4 {
+  color: #000000;
+  font-size: 30px;
+  font-family: KLIK, sans-serif;
+  margin: 0;
+}
+
+h5 {
+  color: #c70c0e;
+  font-size: 30px;
+  font-family: KLIK, sans-serif;
+  margin: 0;
+}
+
+h6 {
+  color: #000000;
+  font-size: 20px;
+  font-family: KLIK, sans-serif;
+  margin: 0;
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
+  font-family: KLIK, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  background-color: #ECECEC;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 25px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=index.css.map */

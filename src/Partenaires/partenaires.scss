@@ -1,0 +1,38 @@
+@import "../utils/colors";
+
+
+#partenaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    width: 100%;
+
+    padding-top: 100px;
+
+    padding-bottom: 100px;
+}
+
+#partenaires_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 50%;
+    gap: 50px;
+}
+
+.partenaire_logo_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+        max-width: 300px;
+        max-height: 150px;
+    }
+}
