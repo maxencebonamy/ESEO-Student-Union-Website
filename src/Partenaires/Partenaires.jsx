@@ -3,9 +3,9 @@ import './partenaires.css';
 import partenaires from "./partenaires.json"
 
 
-function Partenaires() {
+function Partenaires({ appRef }) {
     return (
-        <div id="partenaires">
+        <div id="partenaires" ref={appRef}>
             <h1>Partenaires</h1>
             <div id="partenaires_content">
                 {

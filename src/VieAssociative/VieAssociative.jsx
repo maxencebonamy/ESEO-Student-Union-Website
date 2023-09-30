@@ -6,7 +6,7 @@ import clubathon from "./img/clubathon.png";
 import gala from "./img/gala.png";
 import eseo_perspectives from "./img/eseo_perspectives.png";
 
-function VieAssociative() {
+function VieAssociative({ appRef }) {
     const images = {
         clubathon: clubathon,
         gala: gala,
@@ -14,7 +14,7 @@ function VieAssociative() {
     };
 
     return (
-        <div id="vie_associative">
+        <div id="vie_associative" ref={appRef}>
             <h1>Vie associative</h1>
             {
                 events.map((event, index) => (

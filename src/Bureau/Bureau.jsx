@@ -4,7 +4,7 @@ import {bureauImages} from "./img/bureauImages";
 import responsables from "./responsables.json";
 
 
-function Bureau() {
+function Bureau({ appRef }) {
 
     const contact_images = (file) => {
         let output = [];
@@ -22,7 +22,7 @@ function Bureau() {
     };
 
     return (
-        <div id="bureau">
+        <div id="bureau" ref={appRef}>
             <h1>Bureau</h1>
             <div className="bureau_content" style={{maxWidth: "900px"}}>
                 {

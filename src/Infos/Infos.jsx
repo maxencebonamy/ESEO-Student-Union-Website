@@ -4,9 +4,9 @@ import icon_members from "./img/icon_members.svg"
 import icon_clubs from "./img/icon_clubs.svg"
 import icon_pertnerships from "./img/icon_pertnerships.svg"
 
-function Home() {
+function Home({ appRef }) {
     return (
-        <div id="infos">
+        <div id="infos" ref={appRef}>
             <h1>Qui sommes-nous</h1>
             <p>
                 Nous sommes le BDE ESEONOVA, le BDE de l’ESEO 2022-2023.

@@ -2,10 +2,10 @@ import "./clubs.css";
 import clubs from "./clubs.json";
 import {clubsImages} from "./img/clubsImages";
 
-function Clubs() {
+function Clubs({ appRef }) {
 
     return (
-        <div id="clubs">
+        <div id="clubs" ref={appRef}>
             <h1>Clubs</h1>
             <div id="clubs_logos">
                 {
