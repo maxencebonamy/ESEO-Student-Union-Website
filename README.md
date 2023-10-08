@@ -2,7 +2,9 @@
 	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/Eseo_Student_Union_Website.png" width="100%" alt="Sand Box">
 </p>
 
-https://github.com/maxencebonamy/ESEO-Student-Union-Website/assets/66129931/bcb5dea5-3e13-4bf5-8260-12312c41bba0
+
+https://github.com/maxencebonamy/ESEO-Student-Union-Website/assets/66129931/c20da849-8e17-413e-8749-26331d9adb3f
+
 
 <br>
 
